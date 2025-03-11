@@ -1,5 +1,5 @@
 def call() {
-    node('node1') {
+    node('ci-server') {
 
         stage('CodeCheckout') {
 
